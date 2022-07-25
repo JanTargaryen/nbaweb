@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JanStark</title>
+    <link rel="stylesheet" type="text/css" href="../../static/css/nbaFirst.css">
+    <link rel="stylesheet" href="../../static/css/login.css"/>
+    <link rel="stylesheet" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css">
+</head>
+
+<!--text表示文本输入框-->
+
+<body bgcolor="#fff0f5">
+<div class="header">
+    <div class="w1200">
+        <div class="header-right">
+            <img src="../../static/img/nba-icon.png" width="26" height="42">
+            <span>联系电话:666-666-6666</span>
+        </div>
+    </div>
+</div>
+<form action="/deal/" method="post">
+    <!--    action:设置提交服务器的地址,注意不要落下http://-->
+    <!--    method:设置提交的方式,默认为get
+            表单提交时没有数据给服务器的情况:
+            1.表单没有name属性值   每个标签都需要加name属性,否则不会发给服务器
+            2.单选复选下拉链表中的option标签都需要添加values属性,否则无法有效传输
+            3.表单项不在提交的form标签区域中
+
+            get方法特点:
+            1.不安全,可以直接查看
+            2.有数据长度的限制
+
+            post方法的特点:
+            1.浏览器地址只有action属性值,比较安全
+            2.
+
+
+    -->
+    <div id="login-box">
+        <h1>注册</h1>
+        <div class="form">
+            <div class="item">
+                <i class="fa fa-github-alt" style="font-size:24px"></i>
+                <input type="text" name="username">
+            </div>
+            <div class="item">
+                <i class="fa fa-search" style="font-size:24px"></i>
+                <input type="text" name="password">
+            </div>
+            </div>
+        <a href="../First.html">
+            <button>注册</button>
+        </a>
+    </div>
+</form>
+
+
+</form>
+
+</body>
+</html>

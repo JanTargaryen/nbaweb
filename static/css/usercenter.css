@@ -1,0 +1,62 @@
+*{
+    padding:0;
+    margin:0;
+}
+li,ul,ol{
+    list-style: none;
+}
+
+.w1200{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 60px;
+    background-color:#333;
+}
+
+.header-right{
+    float: right;
+    height: 45px;
+    line-height: 45px;
+
+
+
+}
+.header-right a{
+    color: white;
+    margin-right: 25px;
+    font-size: 14px;
+      }
+.header-right span{
+    color: white;
+    font-size: 18px;
+    margin-right: 40px;
+}
+.header-right img{
+    float: left;
+}
+
+/*头部样式*/
+
+/*主体样式*/
+.body{
+    background-color: #f4f4f4;
+    height: 750px;
+    padding-top: 30px;
+}
+.user-zone{
+    width: 1200px;
+    height: 600px;
+    background-color: #ffffff;
+    margin: auto;
+}
+.menu{
+
+}
+
+/*尾部样式*/
+.footer{
+
+}
